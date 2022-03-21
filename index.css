@@ -1,0 +1,14 @@
+* {
+  font-family: "Caveat", cursive;
+}
+p {
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
