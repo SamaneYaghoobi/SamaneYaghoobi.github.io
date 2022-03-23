@@ -1,2 +1,2 @@
 # Samane
-Here is my personal website to show my links and other sh*ts.
+Here is [my personal website](https://samaane.ir) to show my links and other sh*ts.
