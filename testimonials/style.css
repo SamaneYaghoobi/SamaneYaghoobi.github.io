@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazirmatn;
+  direction: rtl;
+  width: 100%;
+  min-height: 100vh;
+  background: #edf2f8;
+  transform: scale(0.95);
+}
+a:link,
+a:active,
+a:visited,
+a:hover {
+  color: #3f51b5;
+}
+.grid {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  /* grid-auto-rows: 2rem; */
+  margin: auto;
+  width: 80%;
+}
+
+.container {
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 5px 5px 20px #6d6b6b6b;
+  color: white;
+}
+
+.back-purple {
+  background: #733fc8;
+  background-image: url(https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  /* background-position-x: 25rem; */
+}
+
+.review p {
+  font-size: 1.15rem;
+  color: #f3deff;
+  font-weight: 500;
+  opacity: 80%;
+  line-height: 1.8;
+}
+
+.detbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.detbox p {
+  margin: 0;
+}
+.detbox .name {
+  color: hsl(0, 0%, 81%);
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+  font-weight: 600;
+}
+
+.detbox .designation {
+  color: hsl(0, 0%, 81%);
+  opacity: 80%;
+  font-size: 0.8rem;
+}
+
+.back-gray {
+  background: #49556b;
+}
+
+.back-light {
+  background: white;
+  color: black;
+}
+
+.back-dark {
+  background: #18202d;
+}
+
+.userdetails {
+  display: flex;
+}
+.detbox .name.dark {
+  color: #49505a;
+}
+.detbox .designation.dark {
+  color: #49505a;
+}
+.review h4 {
+  font-size: 1.4rem;
+  color: #f3deff;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+.review.dark h4 {
+  color: #4b5258;
+}
+.review.dark p {
+  color: #0e0e0e;
+}
+.attribution {
+  font-size: 1rem;
+  line-height: 1.5;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: right;
+}
+.attribution a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 950px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    transform: scale(1);
+    padding: 2rem 0;
+  }
+  .review p {
+    font-size: 1rem;
+  }
+}
