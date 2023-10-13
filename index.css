@@ -1,6 +1,11 @@
 * {
   font-family: "Caveat", cursive;
 }
+body {
+  width: 700px;
+
+  margin: auto;
+}
 p {
   font-size: 2em;
   line-height: 1.8;
@@ -8,8 +13,21 @@ p {
 a {
   text-decoration: none;
   color: black;
+  position: relative;
 }
 a:hover {
   text-decoration-line: underline;
   text-decoration-style: dashed;
+  color: #ec5c27;
+}
+
+a:before {
+  background: #21fef1;
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  z-index: -99;
+  height: 18px;
 }
